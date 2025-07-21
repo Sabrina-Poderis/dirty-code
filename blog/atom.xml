@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/Sabrina-Poderis/dirty-code/blog</id>
+    <title>Código Sujo Blog</title>
+    <updated>2025-07-20T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://github.com/Sabrina-Poderis/dirty-code/blog"/>
+    <subtitle>Código Sujo Blog</subtitle>
+    <icon>https://github.com/Sabrina-Poderis/dirty-code/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Bem-vindo ao Código Sujo]]></title>
+        <id>https://github.com/Sabrina-Poderis/dirty-code/blog/welcome</id>
+        <link href="https://github.com/Sabrina-Poderis/dirty-code/blog/welcome"/>
+        <updated>2025-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[O Código Sujo nasceu como uma piada. Mas como toda boa piada de programador, acabou ficando séria (mais ou menos).]]></summary>
+        <content type="html"><![CDATA[<p>O <strong>Código Sujo</strong> nasceu como uma piada. Mas como toda boa piada de programador, acabou ficando séria (mais ou menos).</p>
+<p>Nos inspiramos na <a href="https://x.com/EngineerRabbit/status/1580171906266804224" target="_blank" rel="noopener noreferrer">lendária capa de livro Código Sujo</a> feito pela <a href="https://x.com/EngineerRabbit" target="_blank" rel="noopener noreferrer">Letícia Coelho</a> que parodia o livro <em>Código Limpo</em>, mas fizemos justamente o contrário: um <strong>tutorial completo de más práticas de programação</strong>. Aqui você não vai aprender a escrever código limpo, legível ou eficiente. Aqui você aprende a fazer tudo errado — para nunca mais fazer.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="por-que-ensinar-o-errado">Por que ensinar o errado?<a href="https://github.com/Sabrina-Poderis/dirty-code/blog/welcome#por-que-ensinar-o-errado" class="hash-link" aria-label="Direct link to Por que ensinar o errado?" title="Direct link to Por que ensinar o errado?">​</a></h2>
+<p>Ao reforçar as <strong>piores práticas possíveis</strong>, percebemos que é uma forma divertida e eficaz de alertar sobre o que <strong>não fazer</strong>. Mostrar o caminho errado, para ajudar a escolher o certo.</p>
+<p><strong>O que você vai encontrar no Código Sujo:</strong></p>
+<ul>
+<li>Tutoriais ensinando como complicar o simples.</li>
+<li>Técnicas avançadas de spaghetti code.</li>
+<li>Exemplos reais de “gambiarras que funcionam”.</li>
+<li>Lições de Go Horse Method aplicadas ao extremo.</li>
+<li>E claro... explicações técnicas sobre por que tudo isso é uma péssima ideia.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="começou-como-piada-virou-lição">Começou como piada. Virou lição.<a href="https://github.com/Sabrina-Poderis/dirty-code/blog/welcome#come%C3%A7ou-como-piada-virou-li%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Começou como piada. Virou lição." title="Direct link to Começou como piada. Virou lição.">​</a></h2>
+<p>O objetivo nunca foi promover o caos (apesar de parecer). Nosso projeto existe para <strong>reforçar o valor do código limpo, claro e responsável</strong> — mostrando o desastre que acontece quando se ignora esses princípios.</p>
+<p><strong>Divirta-se. Mas reflita. E depois escreva código melhor.</strong></p>
+<blockquote>
+<p>Porque às vezes, ensinar o errado é o jeito certo de aprender.</p>
+</blockquote>]]></content>
+        <author>
+            <name>Sabrina Poderis</name>
+            <uri>https://www.linkedin.com/in/sabrina-poderis/</uri>
+        </author>
+        <author>
+            <name>Lucas Tamir</name>
+            <uri>https://www.tamirfaria.vercel.app/</uri>
+        </author>
+        <category label="programacao" term="programacao"/>
+        <category label="humor" term="humor"/>
+        <category label="gohorse" term="gohorse"/>
+        <category label="antipatterns" term="antipatterns"/>
+    </entry>
+</feed>

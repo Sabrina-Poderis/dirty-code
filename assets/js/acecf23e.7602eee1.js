@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirty_code=self.webpackChunkdirty_code||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/Sabrina-Poderis/dirty-code/blog","blogTitle":"Blog","authorsListPath":"/Sabrina-Poderis/dirty-code/blog/authors"}')}}]);

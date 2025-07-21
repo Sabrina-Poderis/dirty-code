@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirty_code=self.webpackChunkdirty_code||[]).push([[930],{7373:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Sabrina-Poderis/dirty-code/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
