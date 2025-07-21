@@ -17,3 +17,23 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+programacao:
+  label: Programação
+  permalink: /programacao
+  description: Hola tag description
+
+humor:
+  label: Humor
+  permalink: /humor
+  description: Humor tag description
+
+gohorse: 
+  label: Go Horse
+  permalink: /gohorse
+  description: gohorse tag description
+
+antipatterns:
+  label: Anti-Patterns
+  permalink: /antipatterns
+  description: antipatterns tag description
