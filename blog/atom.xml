@@ -39,9 +39,9 @@
             <name>Lucas Tamir</name>
             <uri>https://www.tamirfaria.vercel.app/</uri>
         </author>
-        <category label="programacao" term="programacao"/>
-        <category label="humor" term="humor"/>
-        <category label="gohorse" term="gohorse"/>
-        <category label="antipatterns" term="antipatterns"/>
+        <category label="Programação" term="Programação"/>
+        <category label="Humor" term="Humor"/>
+        <category label="Go Horse" term="Go Horse"/>
+        <category label="Anti-Patterns" term="Anti-Patterns"/>
     </entry>
 </feed>
