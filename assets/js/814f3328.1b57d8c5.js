@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdirty_code=self.webpackChunkdirty_code||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Bem-vindo ao C\xf3digo Sujo","permalink":"/dirty-code/blog/welcome","unlisted":false,"date":"2025-07-20T00:00:00.000Z"}]}')}}]);
