@@ -7,7 +7,7 @@ tags: [programacao, humor, gohorse, antipatterns]
 
 O **Código Sujo** nasceu como uma piada. Mas como toda boa piada de programador, acabou ficando séria (mais ou menos).
 
-Nos inspiramos no famoso livro *Código Limpo*, mas fizemos justamente o contrário: um **tutorial completo de más práticas de programação**. Aqui você não vai aprender a escrever código limpo, legível ou eficiente. Aqui você aprende a fazer tudo errado — para nunca mais fazer.
+Nos inspiramos na [lendária capa de livro Código Sujo](https://x.com/EngineerRabbit/status/1580171906266804224) feito pela [Letícia Coelho](https://x.com/EngineerRabbit) que parodia o livro *Código Limpo*, mas fizemos justamente o contrário: um **tutorial completo de más práticas de programação**. Aqui você não vai aprender a escrever código limpo, legível ou eficiente. Aqui você aprende a fazer tudo errado — para nunca mais fazer.
 
 <!-- truncate -->
 

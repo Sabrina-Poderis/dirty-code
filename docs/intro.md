@@ -1,47 +1,40 @@
 ---
 sidebar_position: 1
+slug: intro
+title: Introdução ao Código Sujo
 ---
 
-# Tutorial Intro
+# Bem-vindo ao Código Sujo
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Se você sempre quis aprender as **piores** práticas de programação, como:
 
-## Getting Started
+- Usar `if` dentro de `if` dentro de `if`
+- Fazer um único arquivo com 5 mil linhas
+- Debugar no ambiente de produção com `console.log`
 
-Get started by **creating a new site**.
+... então, você chegou ao lugar certo.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## O que é o Código Sujo?
 
-### What you'll need
+O **Código Sujo** é um guia completo de **más práticas de programação**. Um tutorial reverso. Um anti-manual. A paródia do famoso *Código Limpo* — aqui nós ensinamos tudo o que você **não deveria fazer**.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Mas, no fundo, o objetivo é sério: ao estudar os exemplos mais desastrosos, você aprende a reconhecê-los e evitá-los.
 
-## Generate a new site
+## Como funciona?
 
-Generate a new Docusaurus site using the **classic template**.
+Cada capítulo traz:
 
-The classic template will automatically be added to your project after you run the command:
+- Um conceito errado (como complicar uma função simples)
+- Exemplos reais de código desastroso
+- Uma explicação sarcástica de por que *achamos* que isso é uma boa ideia
+- E no final... a revelação: **por que isso está totalmente errado**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Por que ler isso aqui?
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Porque aprender pelo contraste pode ser divertido.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+E porque, no fundo, todo dev já escreveu código sujo alguma vez. Aqui, só tornamos isso oficial.
 
-## Start your site
+---
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+> “Se tá funcionando, não mexe.” — Todo desenvolvedor que já existiu.
