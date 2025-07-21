@@ -15,16 +15,16 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com/Sabrina-Poderis',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/dirty-code',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'exausted developers', // Usually your GitHub org/user name.
-  projectName: 'dirty-code', // Usually your repo name.
-
+  organizationName: 'Sabrina-Poderis', // Usually your GitHub org/user name.
+  projectName: 'dirty-code',
+  deploymentBranch: 'gh-pages',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
