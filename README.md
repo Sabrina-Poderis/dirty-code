@@ -1,41 +1,48 @@
-# Website
+# 🐴 Código Sujo: O Anti-Manual de Programação
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bem-vindo ao **Código Sujo**, um projeto educacional (ou quase) criado para ensinar as **piores práticas de programação**.
 
-## Installation
+Esqueça o *Clean Code*. Aqui é caos profissional.
 
-```bash
-yarn
-```
+## Sobre o Projeto
 
-## Local Development
+O **Código Sujo** começou como uma piada e continuou como um tutorial reverso: mostramos o que NÃO fazer, para que você nunca mais esqueça.
 
-```bash
-yarn start
-```
+Cada exemplo, cada "boa prática" ensinada aqui... é justamente o que você não deve fazer.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+> Porque reforçar o erro ajuda a gravar o certo.
 
-## Build
+## 🔥 Tecnologias Usadas
 
-```bash
-yarn build
-```
+- [Docusaurus 3.x](https://docusaurus.io/)
+- React 19 
+- TypeScript
+- Markdown
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+## 📦 Instalação
 
 ```bash
-USE_SSH=true yarn deploy
+git clone https://github.com/Sabrina-Poderis/dirty-code.git
+cd dirty-code
+npm install
+npm run start
 ```
 
-Not using SSH:
+## 🚀 Scripts
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+| Comando           | Faz o quê?                      |
+|-------------------|---------------------------------|
+| `npm run start`   | Roda o site em ambiente local   |
+| `npm run build`   | Compila o caos para produção    |
+| `npm run deploy`  | Lança as más práticas online    |
+| `npm run clear`   | Limpa a bagunça acumulada       |
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 📚 Estrutura
+
+- `/docs`: Lições de como complicar códigos simples
+- `/blog`: Reflexões e informações sobre o projeto
+- `/src`: Landing page React
+
+---
+
+> "Code agora, entenda nunca" — Equipe Código Sujo
