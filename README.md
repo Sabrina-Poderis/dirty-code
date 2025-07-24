@@ -43,6 +43,35 @@ npm run start
 - `/blog`: Reflexões e informações sobre o projeto
 - `/src`: Landing page React
 
+## 🤝 Como Contribuir com o Código Sujo
+
+Você quer ensinar más práticas com estilo? Aqui é o lugar certo.
+
+### 📘 1. **Escrever um Capítulo do Livro**
+
+Você pode escrever um dos capítulos do nosso *Anti-Manual*, baseado nos tópicos originais do livro *Clean Code* — só que ao contrário.
+
+Cada capítulo já tem uma **issue aberta** com um guia de conteúdo, objetivos e checklist.
+
+👉 Vá até as [issues de capítulo](https://github.com/Sabrina-Poderis/dirty-code/issues) e escolha uma para trabalhar.
+
+Depois, abra um **Pull Request** com seu texto no formato indicado no `docs_template.md`.
+
+### 🖼️ 2. **Criar ou Alterar a Landing Page**
+
+A landing page do projeto é um show à parte — efeitos visuais, caos estético, slogans sarcásticos.
+
+Use o template `landing_page_template.md` para enviar seu PR.
+
+👉 Antes de começar, veja as [issues da landing](https://github.com/Sabrina-Poderis/dirty-code/issues?q=label%3Alanding-page).
+
+### 📯 3. **Publicar um Post no Blog**
+
+Quer contar uma história de código horrível que você viu (ou escreveu)?
+Alguma gambiarra que ainda te assombra?  O blog é seu confessionário.
+
+Use o template `blog_template.md` e abra um PR com seu post.
+
 ---
 
-> "Code agora, entenda nunca" — Equipe Código Sujo
+> "Se for para fazer errado, que seja com estilo." — Equipe Código Sujo
