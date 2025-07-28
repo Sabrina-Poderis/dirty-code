@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Código Sujo',
   tagline: 'Habilidades práticas do go horse',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/dirty_code_1.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -77,7 +77,7 @@ const config: Config = {
       title: 'Código Sujo',
       logo: {
         alt: 'Código Sujo Logo',
-        src: 'img/logo.svg',
+        src: 'img/dirty_code_2.svg',
       },
       items: [
         {
