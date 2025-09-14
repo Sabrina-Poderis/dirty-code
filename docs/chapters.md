@@ -10,23 +10,30 @@ Seguem abaixo as príncipais regras para você conseguir realizar um código tã
 
 > E provavelmente nem você vai entender o que você fez meses depois de entregar a feature!
 
-## 📖 Capítulo 1: Nomeie Tudo com Ambiguidade
+## 📖 Capítulo 1 – Clean Code é Coisa De Otário
 
-> Ensine a arte do mistério:
+> Desenvolvedor raiz não formata, não comenta, não testa. Só entrega (e tem burnout).
+
+- Código legível só serve pra enfeitar. O importante é o prazo (que você nunca vai cumprir).
+- O cliente não pediu legibilidade, só pediu pra ontem.
+
+## 📖 Capítulo 2 – Variáveis Genéricas e Significados Ocultos
+
+> Vamos explorar a arte de dar nomes confusos, intenção misteriosa e anos de estudos arqueologia para entender.
 
 - Variáveis como `data`, `aux` e `coiso` são versáteis. Não se limite com nomes descritivos!
 - Funções chamadas `handleButton()` passam aquela vibe de software místico, qual ação? de quão botão? o que ele faz? **DESCUBRA**.
 
-## 📖 Capítulo 2: Funções Longas e Multifacetadas
+## 📖 Capítulo 3: Funções Que Mal Funcionam
 
-> Abrace a monolítica elegância:
+> Vamos nos aprofundar na criação de funções gigantescas, que fazem tudo e mais um pouco, e ainda retornam `null` por segurança.
 
 - Uma função só é boa se tiver pelo menos 500 linhas.
 - Faça funções que carregam dados, processam requisições, salvam no banco, atualizam a interface e passam café.
 
-## 📖 Capítulo 3: Comentários Salvadores
+## 📖 Capítulo 4: 100 Comentários
 
-> Compense o caos com longos tratados:
+> Nada melhor do que um comentário dizendo o óbvio.
 
 - Escreva comentários explicando o que o código faz, linha por linha.
 - Exemplo e comentário essencial
@@ -36,30 +43,40 @@ Seguem abaixo as príncipais regras para você conseguir realizar um código tã
     ```
 - Se o código não fizer sentido, **dobre** a quantidade de comentários.
 
-## 📖 Capítulo 4: DRY é Superestimado
+## 📖 Capítulo 5: Formatação Escoliosa
 
-> Repetição é sinal de força:
+> Crie a indentação do seu código das piores formas possíveis e arrume briga com seus colegas pra ver quem vai ter a pior ideia de configuração de ´lint´
 
-- Copie e cole blocos idênticos pelo seu projeto.
-- Quando algo mudar, gaste uma semana procurando todas as cópias para alterar.
+- Misture tabs e espaços, sem dó nem piedade.
+- Cada função merece uma indentação diferente — afinal, diversidade é importante.
+- Esqueça quebra de linha: monolito até na horizontal.
 
-## 📖 Capítulo 5: Programação Orientada a Gambiarra
+## 📖 Capítulo 6: Objetos Com Síndrome de Deus
 
-> Adote a filosofia POG:
+> Objetos que fazem tudo, sabem de tudo e controlam tudo.
 
-- Soluções temporárias são definitivas.
-- > "Se funcionou uma vez, mande para produção, preferencialmente as 17:59 de uma sexta-feira"
+- Crie um objeto para autenticação, banco de dados, API, UI e regra de negócio.
+- Pra que modularizar se você pode criar um ser onipotente?
 
-## 📖 Capítulo 6: O Maravilhoso Mundo das Dependências Circulares
+## 📖 Capítulo 7: Erros genéricos e destratados
 
-> Nunca isole responsabilidades:
+> Trate seus erros apenas quando o sistema cair. Afinal é uma ótima experiência de coworking ficar preso por 4 horas numa warrom as 18:47 de uma quinta-feira por conta de um problema que poderia ter sido percebido antes.
 
-- Faça com que módulos dependem uns dos outros.
-- Com cada alteração quebrando tudo, sua equipe sempre alguma coisa pra fazer.
+- Use o `catch ()` só pra ignorar o erro.
+- `console.log("Erro")` resolve 95% das situações.
+- Suas mensagens de erro devem ser tão genéricas quanto as de um horóscopo.
 
-## 📖 Capítulo 7: Código Morto é Patrimônio Histórico
+## 📖 Capítulo 8: Teste É Coisa De Covarde
 
-> Nunca delete nada:
+> Se tá buildando, tá testado.
+
+- Testes automatizados são perda de tempo: confie na sua sorte.
+- O usuário final é o melhor tester.
+- "Na minha máquina funciona" é a maior certificação de qualidade que existe.
+
+## 📖 Capítulo 9: Código Morto é Patrimônio Histórico
+
+> Mantenha blocos de código inutilizados a 7 anos comentados, e tenha sua vida completamente transtornada quando você tiver que fazer qualquer coisa que envolve a manutenção desta budega.
 
 - Se um pedaço de código não for usado, apenas comente.
 - O código comentado é um legado para futuras gerações.
