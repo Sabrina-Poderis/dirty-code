@@ -163,13 +163,13 @@ export default function Home(): ReactNode {
               <small>Ensine a arte do mistério</small>
               <b>↗</b>
             </Link>
-            <Link to="/docs/chapter-2">
+            <Link to="/docs/chapters">
               <span>02</span>
               <strong>Funções Longas e Multifacetadas</strong>
               <small>Abrace a monolítica elegância</small>
               <b>↗</b>
             </Link>
-            <Link to="/docs/chapter-3">
+            <Link to="/docs/chapters">
               <span>03</span>
               <strong>Comentários Salvadores</strong>
               <small>Compense o caos com longos tratados</small>

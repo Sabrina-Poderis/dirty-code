@@ -8,9 +8,14 @@
   overflow: hidden;
   font-family: "Courier New", monospace;
 }
-footer {
-  color: var(--ink);
-  background-color: var(--ifm-navbar-background-color);
+[data-theme="dark"] .home {
+  --ink: #f1edf5;
+  --paper: #211c29;
+  --violet: #a18aff;
+  --muted: #aaa1b2;
+  --line: #51485b;
+  --soft-line: #38313f;
+  background: var(--paper);
 }
 .hero {
   min-height: 760px;
@@ -181,6 +186,15 @@ footer {
 .sectionIndex {
   color: #8d8393;
 }
+[data-theme="dark"] .sectionIndex,
+[data-theme="dark"] .quoteBlock small,
+[data-theme="dark"] .chartLegend,
+[data-theme="dark"] .chartY,
+[data-theme="dark"] .chartX,
+[data-theme="dark"] .chapterList span,
+[data-theme="dark"] .chapterList small {
+  color: var(--muted);
+}
 .manifestoText h2,
 .dangerHeader h2,
 .chapterHeading h2 {
@@ -280,10 +294,16 @@ footer {
   border-bottom: 1px solid #534956;
   overflow: hidden;
 }
+[data-theme="dark"] .chartGrid {
+  border-color: var(--line);
+}
 .chartLine {
   display: block;
   border-top: 1px solid #302b37;
   height: 25%;
+}
+[data-theme="dark"] .chartLine {
+  border-top-color: var(--soft-line);
 }
 .chartSvg {
   position: absolute;
@@ -351,6 +371,9 @@ footer {
 .chapters {
   background: #d8d0c1;
 }
+[data-theme="dark"] .chapters {
+  background: #2b2434;
+}
 .chapterHeading {
   display: flex;
   align-items: end;
@@ -374,6 +397,9 @@ footer {
   margin: 60px 0 0 18%;
   border-top: 1px solid #a49a9a;
 }
+[data-theme="dark"] .chapterList {
+  border-top-color: var(--line);
+}
 .chapterList a {
   display: grid;
   grid-template-columns: 70px 1.5fr 1fr 30px;
@@ -384,6 +410,9 @@ footer {
   color: var(--ink);
   text-decoration: none;
   transition: padding 0.2s;
+}
+[data-theme="dark"] .chapterList a {
+  border-bottom-color: var(--line);
 }
 .chapterList a:hover {
   color: var(--violet);
