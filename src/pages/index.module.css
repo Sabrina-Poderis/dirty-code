@@ -63,6 +63,7 @@
     900 clamp(76px, 12vw, 170px)/0.78 Impact,
     "Arial Black",
     sans-serif;
+  color: #e8e1d3;
   letter-spacing: 0;
   margin: 0 0 38px;
   transform: scaleY(1.05);
@@ -112,7 +113,7 @@
   font-size: 18px;
 }
 .textButton {
-  color: var(--paper);
+  color: #e8e1d3;
   font-size: 12px;
 }
 .textButton span {
