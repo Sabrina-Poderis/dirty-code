@@ -112,8 +112,12 @@ export default function Home(): ReactNode {
               <span className={styles.chartLine} />
               <span className={styles.chartLine} />
               <span className={styles.chartLine} />
-              <div className={styles.chartPath} />
-              <b className={styles.chartPoint}>-87%</b>
+              <svg className={styles.chartSvg} viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                <polyline className={styles.productivityPath} pathLength="1" points="0,0 20,12 40,28 60,52 80,76 100,100" />
+                <polyline className={styles.hackPath} pathLength="1" points="0,100 20,88 40,70 60,46 80,22 100,0" />
+              </svg>
+              <b className={styles.productivityPoint}>-87%</b>
+              <b className={styles.hackPoint}>+214%</b>
             </div>
             <div className={styles.chartX}>
               <span>segunda</span>
@@ -125,10 +129,10 @@ export default function Home(): ReactNode {
           </div>
           <div className={styles.chartLegend}>
             <span>
-              <i className={styles.purpleDot} /> produtividade
+              <i className={styles.productivityDot} /> produtividade
             </span>
             <span>
-              <i className={styles.redDot} /> quantidade de gambiarra
+              <i className={styles.hackDot} /> quantidade de gambiarra
             </span>
           </div>
         </section>
@@ -155,20 +159,20 @@ export default function Home(): ReactNode {
           <div className={styles.chapterList}>
             <Link to="/docs/chapter-1">
               <span>01</span>
-              <strong>Fácil de quebrar</strong>
-              <small>O básico da destruição</small>
+              <strong>Nomeie Tudo com Ambiguidade</strong>
+              <small>Ensine a arte do mistério</small>
               <b>↗</b>
             </Link>
-            <Link to="/docs/chapters">
+            <Link to="/docs/chapter-2">
               <span>02</span>
-              <strong>Movido a gambiarra</strong>
-              <small>Escalabilidade? Talvez.</small>
+              <strong>Funções Longas e Multifacetadas</strong>
+              <small>Abrace a monolítica elegância</small>
               <b>↗</b>
             </Link>
-            <Link to="/docs/chapters">
+            <Link to="/docs/chapter-3">
               <span>03</span>
-              <strong>Foque no desespero</strong>
-              <small>Testes? Documentação?</small>
+              <strong>Comentários Salvadores</strong>
+              <small>Compense o caos com longos tratados</small>
               <b>↗</b>
             </Link>
           </div>

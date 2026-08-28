@@ -1,12 +1,16 @@
 .home {
   --ink: #17131d;
   --paper: #e8e1d3;
-  --acid: #FFC822;
+  --acid: #ffc822;
   --violet: #7755f5;
   background: var(--paper);
   color: var(--ink);
   overflow: hidden;
   font-family: "Courier New", monospace;
+}
+footer {
+  color: var(--ink);
+  background-color: var(--ifm-navbar-background-color);
 }
 .hero {
   min-height: 760px;
@@ -281,23 +285,43 @@
   border-top: 1px solid #302b37;
   height: 25%;
 }
-.chartPath {
+.chartSvg {
   position: absolute;
-  width: 110%;
-  height: 120%;
-  left: -3%;
-  top: -10%;
-  border-top: 2px solid var(--acid);
-  border-radius: 50%;
-  transform: rotate(22deg);
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 75%);
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
 }
-.chartPoint {
+.productivityPath,
+.hackPath {
+  fill: none;
+  stroke-width: 1.4;
+  vector-effect: non-scaling-stroke;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: chartReveal 1.8s ease both;
+}
+.productivityPath {
+  stroke: var(--acid);
+}
+.hackPath {
+  stroke: #ff5f6d;
+  animation-delay: 0.35s;
+}
+.productivityPoint,
+.hackPoint {
   position: absolute;
-  right: 14%;
-  top: 60%;
-  color: var(--acid);
   font-size: 20px;
+}
+.productivityPoint {
+  right: 14%;
+  top: 63%;
+  color: var(--acid);
+}
+.hackPoint {
+  right: 8%;
+  top: 21%;
+  color: #ff5f6d;
 }
 .chartX {
   grid-column: 2;
@@ -318,10 +342,10 @@
   border-radius: 50%;
   margin-right: 7px;
 }
-.purpleDot {
+.productivityDot {
   background: var(--acid);
 }
-.redDot {
+.hackDot {
   background: #ff5f6d;
 }
 .chapters {
@@ -445,6 +469,14 @@
   }
   94% {
     transform: translate(5px, -1px);
+  }
+}
+@keyframes chartReveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 @keyframes crawl {
